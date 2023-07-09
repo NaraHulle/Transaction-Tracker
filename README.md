@@ -18,3 +18,14 @@ The ```process_transactions``` method processes the filtered transactions and ca
 __4. Displaying Balances:__
 
 The ```display_balances``` method displays the calculated wallet balances.
+
+__5. Usage:__
+
+ - Make sure you have the required libraries ```requests``` installed before running the code. You can install it using the following command:
+   ```
+   pip install requests
+   ```
+
+ - To use this code, replace the ```api_url``` variable with the actual API endpoint of the blockchain explorer you are working with. Additionally, customize the filtering criteria in the ```filter_transactions``` method based on your specific requirements.
+
+
