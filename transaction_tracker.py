@@ -55,7 +55,7 @@ class TransactionTracker:
 
 # Example usage:
 
-# Define API URL
+# Define API URL:
 api_url = "https://api.example.com"
 
 # Create an instance of TransactionTracker
