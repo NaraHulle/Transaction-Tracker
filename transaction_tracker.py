@@ -6,7 +6,7 @@ class TransactionTracker:
         self.transactions = []
 
     def fetch_transaction_data(self, wallet_address):
-        # Fetch transaction data from the blockchain explorer API
+        # Fetch transaction data from the blockchain explorer API:
         url = f"{self.api_url}/transactions/{wallet_address}"
         response = requests.get(url)
         if response.status_code == 200:
