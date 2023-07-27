@@ -25,7 +25,7 @@ class TransactionTracker:
             if end_date and transaction['date'] > end_date:
                 continue
 
-            # Check transaction amount
+            # Check transaction amount:
             if minimum_amount and transaction['amount'] < minimum_amount:
                 continue
 
